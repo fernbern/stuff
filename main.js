@@ -88,3 +88,4 @@ about.addEventListener('click', function(e) {
         })
     }
 })
+console.log(window.this);
