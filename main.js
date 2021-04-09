@@ -6,6 +6,7 @@ btn.addEventListener('click', function() {
     document.body.style.backgrounndColor = color[randomNumber];
     color.textContent = colors[randomNumber];
 });
+const columns = [1,2,3,4];
 function getRandomNumber() {
     return Math.floor(Math.random() * colors.length);
 }
@@ -54,6 +55,7 @@ window.addEventListener('scroll', function() {
         topLink.classList.remove('show-link');
     }
 });
+console.log(this);
 const scrollLinks = document.querySelector('.scroll-link');
 scrollLinks.forEach((link) => {
     link.addEventListener('click', (ee) => {
@@ -89,3 +91,4 @@ about.addEventListener('click', function(e) {
     }
 })
 console.log(window.this);
+let adventure_to_space = 'fun';
