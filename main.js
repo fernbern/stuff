@@ -6,7 +6,8 @@ btn.addEventListener('click', function() {
     document.body.style.backgrounndColor = color[randomNumber];
     color.textContent = colors[randomNumber];
 });
-console.lo('practice fer');
+console.log(thi);
+console.log('practice fer');
 const columns = [1,2,3,4];
 function getRandomNumber() {
     return Math.floor(Math.random() * colors.length);
