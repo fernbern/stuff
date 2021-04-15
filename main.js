@@ -7,6 +7,8 @@ btn.addEventListener('click', function() {
     color.textContent = colors[randomNumber];
 });
 console.log(thi);
+let planets = ['8 planets'];
+console.log(this.planets);
 console.log('practice fer');
 const columns = [1,2,3,4];
 function getRandomNumber() {
