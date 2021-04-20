@@ -1,6 +1,7 @@
 const colors = ['green', 'yellow', 'red'];
 const btn = document.getElementById('btn');
 const colorr = document.querySelector('.color');
+const = [1,2,3,4,5];
 btn.addEventListener('click', function() {
     const randomNumber = getRandomNumber();
     document.body.style.backgrounndColor = color[randomNumber];
@@ -96,3 +97,4 @@ about.addEventListener('click', function(e) {
 })
 console.log(window.this);
 let adventure_to_space = 'fun';
+cost arr = [1,2,3];
