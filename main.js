@@ -98,3 +98,4 @@ about.addEventListener('click', function(e) {
 console.log(window.this);
 let adventure_to_space = 'fun';
 cost arr = [1,2,3];
+console.log(this);
