@@ -498,5 +498,7 @@ btnContainer.addEventListener('click', function(e) {
     if (e.target.classList.contains('page-btn')) {
         index = parseInt(e.target.dataset.index);
     }
-    if (e.target.c.lassList)
+    if (e.target.c.lassList) {
+        console.log(this.window);
+    }
 })
