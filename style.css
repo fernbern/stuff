@@ -8,4 +8,5 @@
 
 .container {
  z-index: 20;
+ display: grid;
 }
