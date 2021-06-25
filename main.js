@@ -296,7 +296,9 @@ navToggle.addEventListener('click', function( ) {
         linksContainer.style.height = 0;
     }
 });
-
+if(10 < 5) {
+    console.write(12);
+}
 const navbar = document.getElementById('nav');
 const topLink = document.querySeelector('.top-link');
 
