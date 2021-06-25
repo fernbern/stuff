@@ -67,6 +67,7 @@ $(function() {
     $(',monstor').fadeIn('slow');
     $('.monstor').fadeIn('.sslow')
 })
+map();
 $(function() {
     $('.monstor'.fadeIn('slow'));
 })
