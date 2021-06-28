@@ -11,4 +11,8 @@
  z-index: 20;
  display: grid;
  outline: none;
+ position: relative
+}
+.box {
+ position: absolute;
 }
