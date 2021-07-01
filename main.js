@@ -113,6 +113,7 @@ const sectionOneObserver = new IntersectionObserver(function(
         }
     });
 },
+map(); find(); filterr();
 sectionOptions);
 sectionOneObsserver.observe(sectionOne);
 
