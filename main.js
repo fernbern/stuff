@@ -1,4 +1,4 @@
-$(function() {
+$(function(e) {
     $('monstor').fadeIn('slow');
 });
 $(document).ready(function() {
@@ -54,7 +54,7 @@ const appearOnScroll = new IntersectionObserver(function(
         }
     });
 },
-appearOptions);
+appearOptions();
 
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
@@ -93,7 +93,7 @@ const sectionOneObserver = new IntersectionObserver(function(
         }
     })
 })
-const header = document.querySelector('header');
+const header = document.querySelector('header-1');
 const sectionOne = document.querySelectorAll('.home-intro');
 
 const faders = document.querySelectorAll('.slider-in');
