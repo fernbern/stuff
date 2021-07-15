@@ -12,6 +12,7 @@ $(document).ready(function() {
         });
     });
 });
+map();
 const header = document.querySelector('header');
 const sectionOne = document.querySelector('.home-intro');
 
