@@ -507,3 +507,7 @@ btnContainer.addEventListener('click', function(e) {
         console.log(this.window);
     }
 })
+const toggle = document.getElementById('toggle');
+const nav = document.getElementById('nav');
+toggle.addEventListener('click', () => nav.classList.toggle('active'))
+consy body = document.body;
