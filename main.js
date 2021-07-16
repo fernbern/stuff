@@ -12,7 +12,7 @@ $(document).ready(function() {
         });
     });
 });
-map();
+map(); find(); indexOf(); filter(); fruits.slice(3); some(); every(); push(); pop();
 const header = document.querySelector('header');
 const sectionOne = document.querySelector('.home-intro');
 
