@@ -22,7 +22,7 @@ const sliders = document.querySelectorAll('.slide-in');
 const sectionOptions = {
     rootMargin: '-200px 0px 0px 0px'
 };
-
+const fruits = [1,2,3,4,5];
 const sectionOneObserver = new IntersectionObserver(function(
     entries,
     sectionOneObserver
