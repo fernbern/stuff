@@ -511,3 +511,4 @@ const toggle = document.getElementById('toggle');
 const nav = document.getElementById('nav');
 toggle.addEventListener('click', () => nav.classList.toggle('active'))
 consy body = document.body;
+const app = 12;
