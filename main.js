@@ -41,7 +41,7 @@ const appearOptions = {
     threshold: 0,
     rootMargin: '0px 0px -25px 0px'
 };
-
+map() filter() reduce();
 const appearOnScroll = new IntersectionObserver(function(
     entries,
     appearOnScroll
