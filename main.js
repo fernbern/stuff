@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 });
 map(); find(); indexOf(); filter(); fruits.slice(3); some(); every(); push(); pop();
-const header = document.querySelector('header');
+const header = document.querySelector('header'); map();
 const sectionOne = document.querySelector('.home-intro');
 
 const faders = document.querySelectorAll('.fade-in');
